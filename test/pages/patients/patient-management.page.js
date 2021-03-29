@@ -134,6 +134,7 @@ class PatientManagementPage extends Page {
     }
 
     searchPatient (personnummer) {
+        this.inputSearch.waitForDisplayed({timeout:3000})
         this.inputSearch.setValue(personnummer)
         browser.pause(1000)
         this.secondRowItem.waitForDisplayed({reverse:true})

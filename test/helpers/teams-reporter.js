@@ -53,6 +53,12 @@ function main() {
       case BASE_URL.EXPRESS:
         env = "Express";
         break;
+      case BASE_URL.ONECLICK:
+        env = "One-Click";
+        break;
+      case BASE_URL.DEMO:
+        env = "Demo";
+        break;
       default:
           env = "Not located"
           break;

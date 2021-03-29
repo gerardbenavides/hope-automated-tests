@@ -181,6 +181,8 @@ class PatientActivityPage extends Page {
         
         this.btnAddActivity.click()
 
+        this.dropdownActivityType.waitForDisplayed({timeout:3000})
+
         if (activity.occurenceType != null) {
             switch (activity.occurenceType)
             {

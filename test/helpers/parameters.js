@@ -3,7 +3,7 @@ const env_arg = require('./environment-variables').env_arg;
 
 const parameters = {
     DEV: {
-        ParentProvider: "Dev CI Netzon Group",
+        ParentProvider: "Dev CI Netzon1 Group",
         ParentProviderPass: "password",
         Provider: "Dev CI Automation Testing",
         ProviderPass: "password",

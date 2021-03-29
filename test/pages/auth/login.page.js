@@ -1,5 +1,5 @@
 const Page = require('../page');
-const parameter = require('../../helpers/environment-variables').parameters
+const parameter = require('../../../environments/environment-variables').parameters
 
 class LoginPage extends Page {
 

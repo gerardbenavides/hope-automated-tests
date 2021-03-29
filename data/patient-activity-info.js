@@ -1,4 +1,4 @@
-const parameter = require('../test/helpers/environment-variables').parameters
+const parameter = require('../environments/environment-variables').parameters
 
 module.exports = {
     observation: {

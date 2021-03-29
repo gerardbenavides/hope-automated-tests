@@ -1,6 +1,6 @@
 const PatientManagementPage = require('../../pages/patients/patient-management.page')
 const PatientActivityPage = require('../../pages/activity/patient-activity.page')
-const PerformConsentActivityPage = require('../../pages/activity/perform-Consent-activity.page')
+const PerformConsentActivityPage = require('../../pages/activity/perform-consent-activity.page')
 
 let patient = require('../../../data/patient-info.js').patient
 let activity = require('../../../data/activity-info.js').consent

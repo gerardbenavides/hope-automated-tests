@@ -1,4 +1,4 @@
-const parameter = require('../../helpers/environment-variables').parameters
+const parameter = require('../../../environments/environment-variables').parameters
 
 let version = '';
 

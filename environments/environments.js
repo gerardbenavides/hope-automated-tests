@@ -8,6 +8,7 @@ module.exports = {
     HOPE02:'hope02',
     HOPE03:'hope03',
 
-    WEEKDEV: 'week-dev',
-    EXPRESS: 'express'
+    WEEKDEV: 'weekdev',
+    EXPRESS: 'express',
+    ONECLICK: 'oneclick',
 }
